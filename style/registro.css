@@ -54,12 +54,26 @@ body{
     text-decoration: underline;
 }
 
+/*Boton de registro*/
 .form-register #button{
     width: 100%;
-    background-color: rgb(30, 3, 80) !important;
+    background-color: rgb(42, 7, 107) !important;
     border: none;
     padding: 12px;
     color: white;
     margin: 16px 0;
     font-size: 16px;
+    cursor:pointer;
+    border-radius: 8px;
+}
+
+#logoR{
+    margin: 0 auto 15px;
+    display: flex;
+    
+}
+
+.form-register p #iniciarS{
+    cursor: pointer;
+    text-decoration: none;
 }
