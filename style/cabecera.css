@@ -1,0 +1,46 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 90px;
+    background-color: cadetblue;
+    width: 100%;
+    align-items: center;
+}
+
+.logotipo{
+    display:flex;
+    
+}
+.logotipo img{
+    margin-right: 10px;
+}
+
+header a{
+    text-decoration: none;
+    color:darkblue
+}
+
+header nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+header nav a:hover{
+    color:white;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    header nav{
+        padding: 10px 0px;
+    }
+}
