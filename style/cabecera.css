@@ -16,8 +16,11 @@ header{
 
 .logotipo{
     display:flex;
-    
+    align-items: center;
+    margin-left: 20px;
 }
+
+/*logo*/
 .logotipo img{
     margin-right: 10px;
 }
@@ -43,4 +46,9 @@ header nav a:hover{
     header nav{
         padding: 10px 0px;
     }
+}
+
+/*Icono del usuario*/
+header a:nth-child(3){
+    margin-right: 20px;
 }
