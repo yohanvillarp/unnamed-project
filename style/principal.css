@@ -26,7 +26,10 @@
 }
 
 #vision, #mision{
-    padding: 30px;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     background-color: rgb(0, 0, 0);
     color: white;
 
