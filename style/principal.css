@@ -69,14 +69,13 @@ footer div{
     width: 50%;
 }
 
-<<<<<<< HEAD
 #iconos ul li{
     list-style-type: none;
     display: inline-block;
     margin: auto;
-=======
+}
+
 /*modificando estilo de organigrama*/
 #organigrama img{
     background-color: black;
->>>>>>> prueba1
 }
