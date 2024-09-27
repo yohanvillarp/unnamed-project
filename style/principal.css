@@ -63,7 +63,11 @@ footer {
 footer div{
     padding: 2%;
     text-align: center;
-    margin: 0 auto;
+    width: 50%;
 }
 
-
+#iconos ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+}
