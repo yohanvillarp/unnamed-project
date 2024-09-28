@@ -25,7 +25,7 @@
     margin: 0 auto;
 }
 
-#vision, #mision{
+#vision, #mision, #organigrama{
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 30px;
@@ -36,7 +36,7 @@
     text-align: center;
 }
 
-#mision h2, #vision h2{
+#mision h2, #vision h2, #organigrama h2{
     color: rgb(196, 246, 120);
     font-size: 30px;
 }
@@ -48,13 +48,19 @@
 }
 
 #contactos{
-    background-color: rgb(204, 62, 62);
-    padding: 3%;
+    background-color: rgb(70, 61, 61);
+    padding: 5%;
     text-align: center;
+    color: rgb(173, 218, 237);
+}
+
+#contactos iframe{
+    margin-top: 20px;
 }
 
 #contactos h3{
     font-size: 30px;
+    font-weight: bold;
 }
 
 footer {
