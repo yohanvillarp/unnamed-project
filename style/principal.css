@@ -1,9 +1,13 @@
+
 #imagenes{
     display: flex;
 }
 
 #sobreNos{
-    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 25%;
+    padding-left: 25%;
     background-color: black;
     
 }
@@ -84,4 +88,18 @@ footer div{
 /*modificando estilo de organigrama*/
 #organigrama img{
     background-color: black;
+    
+    
+}
+
+#iconos a img{
+    height: 45px;
+    margin-left: 10px;
+}
+footer div img{
+    height: 70px;
+}
+
+hr{
+    margin:0%;
 }
