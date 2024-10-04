@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro | Seidel</title>
+
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/Registro.css">
+
+</head>
+<body>
+    <section>
+        
+        <form class="form-register">
+            <a href="index.html">
+                <img src="../assets/img/global/logo.png" height=50px" id="logoR">
+            </a>
+            <h4>Crea tu cuenta</h4>
+            
+            <label for="nombre">Nombre:</label>
+            <input class="controls" type="text" id="nombre" name="nombre" required placeholder="Ingrese su nombre" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ]{1,30}" maxlength="30">
+            <br>
+            <label for="apellido">Apellido:</label>
+            <input class="controls" type="text" id="apellido" name="apellido" required pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ]{1,30}" placeholder="Ingrese sus apellidos" maxlength="30">
+            <br>
+            <label for="email">Correo electrónico:</label>
+            <input class="controls" type="email" id="email" name="email" required placeholder="example@gmail.com">
+            <br>
+            <label for="password">Contraseña:</label>
+            <input class="controls" type="password" id="password" name="password" required maxlength="50" minlength="5"  placeholder="Ingrese su contraseña">
+            <br>
+            <label for="confirmPassword">Confirmar contraseña:</label>
+            <input class="controls" type="password" id="confirmPassword" name="confirmPassword" required maxlength="50" minlength="5" placeholder="Vuelva a introducir su contraseña">
+            <br>
+            
+            <p><input type="checkbox"> Acepto los <a href="#">terminos y condiciones</a></p>
+            
+            <br>
+            <input id="button" type="submit" value="Registrarme">
+            <br>
+            <p><a id="iniciarS" href="Acceso.html">Ya tengo una cuenta</a></p>
+        </form>
+    </section>
+</body>
+</html>

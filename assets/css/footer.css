@@ -1,0 +1,24 @@
+
+footer {
+    background-color: rgb(18, 11, 112);
+    color: white;
+    display: flex;
+}
+
+footer div{
+    padding: 2%;
+    text-align: center;
+    width: 50%;
+}
+
+#iconos ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: auto;
+}
+
+footer div img{
+    height: 70px;
+}
+
+
